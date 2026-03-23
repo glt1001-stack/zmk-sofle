@@ -51,7 +51,11 @@
         sai: sai {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&to 1 &kp LA(LS(LC(L)))>;
+            bindings =
+                <&macro_press>,
+                <&to 1 &kp LA(LS(LC(L)))>,
+                <&macro_release>,
+                <&to 1 &kp LC(LA(LS(L)))>;
 
             label = "SAI";
         };
@@ -59,7 +63,11 @@
         winmac: winmac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&to 2 &kp F24>;
+            bindings =
+                <&macro_press>,
+                <&to 2 &kp F24>,
+                <&macro_release>,
+                <&kp F24 &to 2>;
 
             label = "WINMAC";
         };
