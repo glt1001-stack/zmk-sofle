@@ -110,7 +110,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: '$$mdi:arrow-up-bold$$', h: B}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
