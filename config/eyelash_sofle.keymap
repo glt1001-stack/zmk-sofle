@@ -91,11 +91,11 @@
 
         SAI {
             bindings = <
-&kp ESC  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5            &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F13  &kp Q    &kp W    &kp E    &kp R    &kp T             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F14  &kp A    &kp S    &kp D    &kp F    &kp G             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F15  &kp Z    &kp X    &kp C    &kp V    &mt B UP_ARROW    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans   &kp F16  &kp F17  &kp F18  &kp F19  &kp ENTER         &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F13  &kp Q    &kp W    &kp E    &kp R    &kp T        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F14  &kp A    &kp S    &kp D    &kp F    &kp G        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F15  &kp Z    &kp X    &kp C    &kp V    &kp B        &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp F16  &kp F17  &kp F18  &kp F19  &kp ENTER    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             display-name = "SAI";
