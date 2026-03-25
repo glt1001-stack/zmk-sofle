@@ -110,7 +110,7 @@ layers:
   - F23
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
