@@ -53,9 +53,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 4 &kp LA(LS(LC(L)))>,
+                <&to 1 &kp LA(LS(LC(L)))>,
                 <&macro_release>,
-                <&to 4 &kp LC(LA(LS(L)))>;
+                <&to 1 &kp LC(LA(LS(L)))>;
 
             label = "SAI";
         };
