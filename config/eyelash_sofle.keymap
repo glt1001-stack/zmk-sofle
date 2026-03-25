@@ -73,7 +73,7 @@
             wait-ms = <0>;
         };
 
-        kp60: new_macro {
+        kp60: kp60 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -83,7 +83,7 @@
                 <&macro_tap>,
                 <&kp KP_NUMBER_0>;
 
-            label = "NEW_MACRO";
+            label = "kp60";
         };
 
         saialt: saialt {
@@ -99,7 +99,7 @@
             label = "SAIALT";
         };
 
-        kp90: new_macro {
+        kp90: kp90 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -109,7 +109,7 @@
                 <&macro_tap>,
                 <&kp KP_NUMBER_0>;
 
-            label = "NEW_MACRO";
+            label = "kp90";
         };
 
         space: space {
