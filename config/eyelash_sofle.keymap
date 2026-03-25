@@ -78,10 +78,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp F19>,
+                <&kp NUMBER_6>,
                 <&macro_pause_for_release>,
                 <&macro_tap>,
-                <&kp F15>;
+                <&kp N7>;
 
             label = "kp60";
         };
@@ -104,10 +104,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_tap>,
-                <&kp F18>,
+                <&kp N8>,
                 <&macro_pause_for_release>,
                 <&macro_tap>,
-                <&kp F15>;
+                <&kp N7>;
 
             label = "kp90";
         };
@@ -237,11 +237,11 @@
 
         sai_temp {
             bindings = <
-&kp ESCAPE      &kp N1          &kp N2       &kp N3   &kp N4   &kp N5              &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &trans          &kp60        &kp F13  &kp90    &kp F17             &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp UP_ARROW    &ctrl_space  &kp F14  &kp F15  &kp LC(LEFT_ALT)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&sai_ctrl       &kp DOWN_ARROW  &kp F20      &trans   &kp N8   &ctrlspace2         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp ENTER       &trans       &kp F21  &kp F22  &saialt             &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp N1          &kp N2     &kp N3   &kp N4   &kp N5              &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &trans          &kp60      &kp F13  &kp90    &kp F14             &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp UP_ARROW    &kp SPACE  &kp F15  &kp N7   &kp LC(LEFT_ALT)    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F16         &kp DOWN_ARROW  &kp F17    &kp F18  &kp N8   &kp LC(SPACE)       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &kp ENTER       &trans     &kp F19  &kp F20  &kp F21             &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
