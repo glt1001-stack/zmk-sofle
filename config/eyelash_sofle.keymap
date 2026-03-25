@@ -65,9 +65,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 2 &kp F24>,
+                <&to 2 &kp F6>,
                 <&macro_release>,
-                <&kp F24 &to 2>;
+                <&kp F6 &to 2>;
 
             label = "WINMAC";
             wait-ms = <0>;
@@ -201,11 +201,11 @@
 
         SAI {
             bindings = <
-&kp ESCAPE      &kp N1          &kp N2     &kp N3   &kp N4        &kp N5          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB         &kp F13         &kp F14    &kp F15  &kp F16       &kp F17         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp F18         &kp SPACE  &kp N0   &kp NUMBER_6  &kp F19         &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp F20         &kp DOWN_ARROW  &kp F23    &kp N8   &kp N9        &kp UP_ARROW    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &kp ENTER       &kp HOME   &kp F21  &kp F22       &kp F24         &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp N1          &kp N2     &kp N3       &kp N4         &kp N5          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB         &kp F13         &kp F14    &kp F15      &kp F16        &kp F17         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp F18         &kp SPACE  &kp F9       &kp F21        &kp F19         &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp F20         &kp DOWN_ARROW  &kp F23    &kp PAGE_UP  &kp PAGE_DOWN  &kp UP_ARROW    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &kp ENTER       &kp HOME   &kp END      &kp F22        &kp F24         &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "SAI";
