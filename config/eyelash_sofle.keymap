@@ -140,6 +140,21 @@
 
             label = "SAI_CTRL";
         };
+
+        sai_magic: sai_magic {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_release>,
+                <&kp LEFT_ALT>,
+                <&macro_tap>,
+                <&kp MINUS>,
+                <&macro_pause_for_release>,
+                <&macro_tap>,
+                <&mo 6>;
+
+            label = "SAI_MAGIC";
+        };
     };
 
     keymap {
@@ -206,11 +221,11 @@
 
         sai_alt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans      &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &sai_magic  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans      &kp F15    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans      &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans      &trans     &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
