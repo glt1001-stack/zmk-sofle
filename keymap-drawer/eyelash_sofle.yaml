@@ -288,11 +288,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:arrow-up-bold$$
+  - F18
   - $$mdi:keyboard-space$$
   - {t: '0', s: )}
   - '6'
-  - F18
+  - F19
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -302,10 +302,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:arrow-down-bold$$
-  - {t: '7', s: '&'}
+  - F23
   - {t: '8', s: '*'}
   - {t: '9', s: (}
-  - F19
+  - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
