@@ -94,7 +94,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
   - F18
-  - $$mdi:keyboard-space$$
+  - F7
   - F9
   - F21
   - F19
